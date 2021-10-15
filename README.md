@@ -36,10 +36,10 @@ const idConfig = {
 function order(buyer, items){
     const Receipt = {
         noReceipt: create.ID(idConfig), // Return -> "TLW-0001-JQE-A0001"
-        date: create.Timestamp(), // Return -> "10 Oct 2021 16:28"
+        date: create.Timestamp(), // Return -> "15 Nov 2021 16:29"
         buyer: buyer
         items: items,
-        total: create.Total(items) // Return -> 44000
+        total: create.Total(items) // Return -> 42000
     }
 
     // Example of insert data to DB
@@ -63,3 +63,5 @@ order("Alex", [ { item: "1 LYCHEE TEA", price: 22000 }, { item: "COFFEE MILK", p
 // }
 
 ```
+
+Author [@gnwncpta]("https://github.com/gnwncta)
