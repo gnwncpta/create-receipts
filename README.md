@@ -1,10 +1,10 @@
 # create-receipts
 Generate ID, Timestamp &amp; Total of a Receipt For Your App.
 
-## Installation
-` npm i create-receipts `
+## 🔖 Installation
+```bash npm i create-receipts ```
 
-## Usage
+## 🔰 Usage
 ```javascript
 const create = require('create-receipts');
 
