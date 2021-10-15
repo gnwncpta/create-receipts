@@ -2,7 +2,7 @@
 Generate ID, Timestamp &amp; Total of a Receipt For Your App.
 
 ## Installation
-``` npm i create-receipts ```
+` npm i create-receipts `
 
 ## Usage
 ```javascript
