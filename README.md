@@ -12,13 +12,13 @@ const create = require('create-receipts');
     Notes for create.ID()
     ---------------------
     identity         "TLW-0001-XXX-A0001"
-                             ^
+                       ^
 
     secondStart      "TLW-0001-XXX-A0001"
-                                  ^
+                           ^
 
     thirdStart       "TLW-0001-XXX-A0001"
-                                           ^
+                                     ^
 
     * Identity -> you can modify identity other than TLW
     * The secondStart will be created in order, also for thirdStart
