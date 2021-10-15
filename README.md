@@ -43,9 +43,23 @@ function order(buyer, items){
     }
 
     // Example of insert data to DB
-    YourDB.insertToDB(Receipt); 
+    YourDB.insertToDB(Receipt);
 }
 
 order("Alex", [ { item: "1 LYCHEE TEA", price: 22000 }, { item: "COFFEE MILK", price: 20000 } ]);
+
+
+// The result would look like below
+
+// {
+//   noReceipt: 'TLW-0001-JQE-A0001',
+//   date: '15 Nov 2021 16:29',
+//   buyer: 'Alex',
+//   items: [
+//     { item: '1 LYCHEE TEA', price: 22000 },
+//     { item: 'COFFEE MILK', price: 20000 }
+//   ],
+//   total: 42000
+// }
 
 ```
